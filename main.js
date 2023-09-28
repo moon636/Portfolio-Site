@@ -1,6 +1,7 @@
+const menu = document.querySelector(".menu-links");
+const icon = document.querySelector(".hamburger-icon");
 
-setTimeout(() => {
-    console.log('now do')
-    const e = document.querySelector("#logo2").style.backgroundColor = "blue";
-    }
-     , 4000);
+function toggleMenu() {
+    menu.classList.toggle("open");
+    icon.classList.toggle("open");
+}
