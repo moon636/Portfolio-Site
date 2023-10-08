@@ -202,6 +202,17 @@ section {
     gap: 1rem;
 }
 
+#socials-container .icon {
+    transition: all 150ms ease;
+    background: none;
+    opacity: 1;
+    border-radius: 100%;
+}
+
+#socials-container .icon:hover {
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+}
+
 /* ICONS */
 
 .icon {
@@ -234,10 +245,12 @@ section {
 
 .btn-color-1:hover,
 .btn-color-2:hover {
-    font-size: 0.9rem;
-    padding: 0.95rem;
-    /* width: 8.5rem; */
+    /* font-weight: 1000; */
+    /* padding: 0.95rem; */
+    width: 8.85rem;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.9);
 }
+
 .btn-color-1 {
     background-color: rgb(53,53,53);
     color: white;
@@ -253,7 +266,7 @@ section {
 
 .btn-color-2:hover {
     background-color: rgb(0,0,0);
-    border: rgb(255,255,255) 0.1rem solid;
+    /* border: rgb(255,255,255) 0.1rem solid; */
     color: white;
 }
 
@@ -310,20 +323,51 @@ section {
     margin: auto 0;
 }
 
+/* EXPERIENCE SECTION */
+
 #experience {
     position: relative;
-}
-
-
-.expereince-sub-title {
-    color: rgb(85,85,85);
+  }
+  
+  .experience-sub-title {
+    color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
-}
-
-.expereince-details-container {
+  }
+  
+  .experience-details-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
+  }
+  
+  .article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+  }
+  
+  article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+  }
+  
+  article .icon {
+    cursor: default;
+    justify-self: flex-start;
+  }
+
+  /* aligning fix VVV */
+  article p { 
+    width: 7rem;
+  }
+  /* aligning fix ^^^ */
+
+  /* PROJECTS SECTION */
+
