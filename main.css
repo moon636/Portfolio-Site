@@ -314,3 +314,16 @@ section {
     position: relative;
 }
 
+
+.expereince-sub-title {
+    color: rgb(85,85,85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.expereince-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
