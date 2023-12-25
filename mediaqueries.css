@@ -11,7 +11,7 @@
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     #desktop-nav {
         display: none;
     }
@@ -118,7 +118,6 @@
 
     .text-container {
         text-align: justify;
-        color: red;
     }
 
 }
